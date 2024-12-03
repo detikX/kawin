@@ -1,0 +1,54 @@
+.pembukaan {
+    background: url("../img/bg.png");
+    background-repeat: repeat;
+    min-height: auto;
+    background-size: contain;
+    &:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, $colorred, rgba($colorred, 0.9), $colorred);
+    }
+    &__anak {
+        position: absolute;
+        // right: 0;
+        // bottom: 0;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        width: 160px;
+        // margin: 0 auto;
+        height: auto;
+        z-index: 1;
+        // opacity: 0.5;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .box-card {
+        width: 50%;
+        // display: inline-block;
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+        vertical-align: top;
+        background: white;
+        margin: 16px auto 24px;
+        text-align: center;
+        @media screen and (max-width: 768px) {
+            width: 60%;
+        }
+    }
+}
+
+.help-left {
+    // display: inline-block;
+    // width: 52%;
+    // vertical-align: top;
+}
+
+.help-right {
+    // float: right;
+}
