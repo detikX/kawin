@@ -1,0 +1,43 @@
+.banner {
+    .image {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        //bisa cover atau contain (90vh)
+        @media screen and (max-width: 768px) {
+            height: 50vh;
+        }
+        &__back {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__anak {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__bayangan {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
