@@ -1,5 +1,18 @@
 .adat {
+    background: url("../img/plus.png");
+    background-repeat: repeat;
+    // min-height: auto;
+    background-size: 50px 50px;
+    &:before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, $colorred, rgba($colorred, 0.93), $colorred);
+        @media screen and (max-width: 768px) {
+            background: linear-gradient(to top, $colorred, rgba($colorred, 0.9), $colorred);
+        }
+    }
     h3 {
-        color: white;
+        color: #fdd835;
     }
 }
