@@ -53,3 +53,18 @@
 .help-right {
     // float: right;
 }
+
+.credit {
+    min-height: auto;
+    .alls {
+        margin-bottom: 8px;
+        .name {
+            font-weight: bold;
+        }
+    }
+}
+
+.putus-putus {
+    width: 100%;
+    border-top: 2px dashed #d1d1d1;
+}
