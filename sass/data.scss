@@ -79,7 +79,7 @@
         content: "";
 
         position: absolute;
-        bottom: 0;
+        top: 0;
         left: -16px;
         width: 0;
         height: 0;
@@ -134,9 +134,12 @@
         }
     }
     .right-side {
-        width: 60%;
+        width: 70%;
         height: auto;
         display: inline-block;
         vertical-align: top;
+        @media screen and (max-width: 768px) {
+            width: 65%;
+        }
     }
 }
