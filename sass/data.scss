@@ -24,9 +24,9 @@
         }
     }
     .sticky-mode {
-        min-height: 70vh;
+        min-height: 50vh;
         @media screen and (max-width: 768px) {
-            min-height: 50vh;
+            min-height: 20vh;
         }
     }
     .wrap-detikx {
@@ -39,11 +39,11 @@
     .ring {
         position: absolute;
         right: 22%;
-        top: 30%;
+        top: 60%;
         width: 5%;
         height: auto;
         @media screen and (max-width: 768px) {
-            top: 10%;
+            top: 30%;
         }
         img {
             width: 100%;
