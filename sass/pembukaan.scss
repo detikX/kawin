@@ -68,3 +68,64 @@
     width: 100%;
     border-top: 2px dashed #d1d1d1;
 }
+
+#play-button {
+    position: relative;
+    .teks {
+        position: absolute;
+        right: 24px;
+        top: -16px;
+        font-style: italic;
+        font-weight: bold;
+        background: rgba($color: white, $alpha: 0.5);
+        @media screen and (max-width: 766px) {
+            display: none;
+        }
+    }
+}
+// p {
+//   text-align: justify;
+// }
+.play-button {
+    width: 36px;
+    height: 36px;
+    // border: 3px solid;
+    background: white;
+    margin: 8px;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    // position: fixed;
+    // top: 0;
+    position: absolute;
+    @media screen and (max-width: 766px) {
+        top: -40px;
+        right: -8px;
+    }
+    right: 0;
+    z-index: 999;
+
+    i {
+        // background-color: red;
+        font-size: 36px;
+        transition: 0.3s;
+        color: $colorred;
+        &:hover,
+        &:focus,
+        &:active {
+            color: #2b88b4;
+        }
+    }
+}
+
+.stickyx {
+    position: fixed !important;
+    top: 20px;
+    z-index: 99;
+    width: 100%;
+    right: 0;
+    @media screen and (max-width: 766px) {
+        top: 40px;
+    }
+}
