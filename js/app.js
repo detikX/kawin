@@ -7,7 +7,7 @@ $(".bubble-text p, .bubble-text small").addClass('wow animate__animated animate_
 
 
 const pauseVar = "fa-pause-circle";
-const playVar = "fa-play-circle";
+const playVar = "fa-volume-up";
 
 const btns = document.querySelectorAll(".all");
 

@@ -93,7 +93,7 @@
     background: white;
     margin: 8px;
     cursor: pointer;
-    padding: 0px;
+    padding: 4px;
     border-radius: 50%;
     text-align: center;
     // position: fixed;
@@ -108,7 +108,7 @@
 
     i {
         // background-color: red;
-        font-size: 36px;
+        font-size: 28px;
         transition: 0.3s;
         color: $colorred;
         &:hover,
